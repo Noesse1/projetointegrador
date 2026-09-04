@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { 
     path: 'listaExerc', 
-    loadChildren: () => import('./lista-exerc/lista-exerc.module').then(m => m.ListaExercModule) 
+    loadChildren: () => import('./lista-exerc/lista-exerc-module').then(m => m.ListaExercModule)
   }
 ];
 

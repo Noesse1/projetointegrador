@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Exerc1Component } from './exerc1/exerc1.component'; 
+import { Exerc1 } from '../ListaExerc/exerc1/exerc1';
 
 const routes: Routes = [
-  { path: 'exerc1', component: Exerc1Component } 
+  { path: 'exerc1', component: Exerc1 } 
 ];
 
 @NgModule({
