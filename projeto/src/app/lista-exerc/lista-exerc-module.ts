@@ -10,6 +10,7 @@ import { Exerc5 } from './exerc5/exerc5';
 import { Exerc6 } from './exerc6/exerc6';
 
 
+
 @NgModule({
   declarations: [Exerc2, Exerc3, Exerc4, Exerc5, Exerc6],
   imports: [CommonModule, ListaExercRoutingModule, FormsModule],
