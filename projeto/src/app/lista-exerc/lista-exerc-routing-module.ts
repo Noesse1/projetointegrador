@@ -6,7 +6,9 @@ import { Exerc3 } from './exerc3/exerc3';
 import { Exerc4 } from './exerc4/exerc4';
 import { Exerc5 } from './exerc5/exerc5';
 import { Exerc6 } from './exerc6/exerc6';
-import { Exerc7 } from '../ListaExerc/exerc7/exerc7';
+import { Exerc8 } from './exerc8/exerc8';
+
+
 
 const routes: Routes = [
   { path: 'exerc1', component: Exerc1 }, 
@@ -15,7 +17,7 @@ const routes: Routes = [
   { path: 'exerc4', component: Exerc4 },
   { path: 'exerc5', component: Exerc5 },
   { path: 'exerc6', component: Exerc6 },
-  { path: 'exerc7', component: Exerc7 }
+  { path: 'exerc8', component: Exerc8 }
 ];
 
 @NgModule({
