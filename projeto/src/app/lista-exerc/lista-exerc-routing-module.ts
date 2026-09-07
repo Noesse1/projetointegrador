@@ -7,6 +7,9 @@ import { Exerc4 } from './exerc4/exerc4';
 import { Exerc5 } from './exerc5/exerc5';
 import { Exerc6 } from './exerc6/exerc6';
 import { Exerc8 } from './exerc8/exerc8';
+import { Exerc9 } from './exerc9/exerc9';
+import { Exerc10 } from './exerc10/exerc10';
+import { Exerc11 } from './exerc11/exerc11';
 
 
 
@@ -17,7 +20,10 @@ const routes: Routes = [
   { path: 'exerc4', component: Exerc4 },
   { path: 'exerc5', component: Exerc5 },
   { path: 'exerc6', component: Exerc6 },
-  { path: 'exerc8', component: Exerc8 }
+  { path: 'exerc8', component: Exerc8 },
+  { path: 'exerc9', component: Exerc9 },
+  { path: 'exerc10', component: Exerc10 },
+  { path: 'exerc11', component: Exerc11 },
 ];
 
 @NgModule({
