@@ -1,0 +1,22 @@
+<h2>Exercício 11 - Carrinho de Compras</h2>
+
+<h3>{{ produto }}</h3>
+<p>Preço: {{ preco | currency:'BRL' }}</p>
+
+
+<div>
+  <label>Quantidade: {{ quantidade }} </label>
+  
+  <button (click)="diminuir()" [disabled]="quantidade === 1"> - </button>
+  <button (click)="aumentar()"> + </button>
+</div>
+
+
+<p>Total: {{ preco * quantidade | currency:'BRL' }}</p>
+
+<button (click)="adicionarAoCarrinho()">Adicionar ao carrinho</button>
+
+<hr>
+
+
+<p><strong>{{ mensagem }}</strong></p>
