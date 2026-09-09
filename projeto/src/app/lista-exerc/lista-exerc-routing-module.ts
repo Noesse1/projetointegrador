@@ -10,6 +10,7 @@ import { Exerc8 } from './exerc8/exerc8';
 import { Exerc9 } from './exerc9/exerc9';
 import { Exerc10 } from './exerc10/exerc10';
 import { Exerc11 } from './exerc11/exerc11';
+import { Exerc7 } from '../ListaExerc/exerc7/exerc7';
 
 
 
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'exerc3', component: Exerc3 },
   { path: 'exerc4', component: Exerc4 },
   { path: 'exerc5', component: Exerc5 },
+  { path: 'exerc7', component: Exerc7 },
   { path: 'exerc6', component: Exerc6 },
   { path: 'exerc8', component: Exerc8 },
   { path: 'exerc9', component: Exerc9 },
